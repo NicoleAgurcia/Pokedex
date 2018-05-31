@@ -31,6 +31,7 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "axios": "0.18.0",
     "object-assign": "4.1.0",
     "react": "16.2.0",
     "react-dom": "16.2.0",
@@ -67,7 +68,7 @@
     "eslint-watch": "3.1.2",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
     "file-loader": "1.1.11",
-    "hard-source-webpack-plugin": "0.6.4",
+    "hard-source-webpack-plugin": "0.7.4",
     "history": "4.6.0",
     "html-webpack-plugin": "3.2.0",
     "identity-obj-proxy": "3.0.0",
@@ -129,7 +130,11 @@
   "babel": {
     "env": {
       "development": {
-        "presets": ["env", "react", "stage-1"]
+        "presets": [
+          "env",
+          "react",
+          "stage-1"
+        ]
       },
       "production": {
         "presets": [
